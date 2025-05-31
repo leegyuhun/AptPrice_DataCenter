@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AptPrice_DataCenter.Const;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,11 +11,16 @@ using System.Windows.Forms;
 
 namespace AptPrice_DataCenter
 {
-    public partial class Form1 : Form
+    public partial class Form_Main : Form
     {
-        public Form1()
+        public Form_Main()
         {
             InitializeComponent();
+        }
+
+        private void Form_Main_Load(object sender, EventArgs e)
+        {
+            
         }
     }
 }

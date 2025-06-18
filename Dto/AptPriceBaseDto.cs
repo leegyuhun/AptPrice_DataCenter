@@ -12,8 +12,6 @@ namespace AptPrice_DataCenter.Dto
         public string areaCode { get; set; }
         public string sidoCode { get; set; }
         public string sigunguCode { get; set; }
-        public string aptCode { get; set; }
-        public string serialNumber { get; set; }
         public string dealYear { get; set; }
         public string dealMon { get; set; }
         public string dealDay { get; set; }
@@ -29,8 +27,8 @@ namespace AptPrice_DataCenter.Dto
         public int diffAmt { get; set; }
         public float diffRate { get; set; }
         public int floor { get; set; }
-        public String buildYear { get; set; }
-        public String landDong { get; set; }
+        public int buildYear { get; set; }
+        public String umdName { get; set; } // 법정동
         public String jibun { get; set; }
         public String regnCode { get; set; }
     }

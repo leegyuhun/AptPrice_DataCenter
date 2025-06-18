@@ -34,7 +34,7 @@ namespace AptPrice_DataCenter.Dto
         public int mpArea135 { get; set; } //전용면적 85㎡ 초과 ~ 135㎡ 이하
         public int mpArea136 { get; set; } //전용면적 135㎡ 초과
 
-        private float bigMpRate { get; set; }; //대형평형 비율(국민평수 초과)
+        private float bigMpRate { get; set; } //대형평형 비율(국민평수 초과)
         public int parkCntUp { get; set; } //주차대수
         public int parkCntDn { get; set; } //주차대수(지하)
         public float parkRate { get; set; }
